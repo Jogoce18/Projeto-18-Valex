@@ -27,7 +27,7 @@
 Nesse projeto desenvolvemos um projeto backend utilizando Typescript com NodeJs e express que gerencia cartões de benefícios.
 A API é responsável pela criação, recarga, ativação, assim como o processamento de compras.
 
-  - Criação de cartão | **```POST '/card'```**
+  - Criação de cartão | **```POST '/newcard'```**
     - Header: { "x-api-key": "chave.de.compania" }
     - Body Schema: { "employee": "Nome Completo da Pessoa", "type": "groceries| restaurant | transport | education | health" }
     
