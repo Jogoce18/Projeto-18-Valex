@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://github.com/NivaldoFarias/shortly-api/blob/main/assets/shortly-api-logo.png" alt="Logo" width="120">
+    <img src="https://user-images.githubusercontent.com/80592317/188508152-5ca92282-78c3-45e8-8a86-e32758f49128.png" alt="Logo" width="120">
 
 <h3 align="center">Valex API</h3>
   <p align="center">
