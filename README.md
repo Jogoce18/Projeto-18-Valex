@@ -43,12 +43,12 @@ A API é responsável pela criação, recarga, ativação, assim como o processa
   - Desbloquear um cartão | **```PUT '/card/unlock'```**
     - Body Schema: { "cardId": id, "password": "PASS" }
   
-  - Abrir um url encurtada | **```POST '/recharge'```**
+  - Carregar um cartão  | **```POST '/recharge'```**
     - Header: { "x-api-key": "chave.de.compania" }
     - Body Schema: { "cardId": id, "amount": value }
   
-  - Ver dados métricas do usuário | **```POST '/purchase/pos'```**
+  - Compras pos | **```POST '/purchase/pos'```**
     - Body Schema: { "cardId": id, "password": "pass", "businessId: id, "amount": value }
   
-  - Ver o ranking de usuários com mais views | **```POST '/purchase/online'```**
+  - Compras Online | **```POST '/purchase/online'```**
     - Body Schema: { "number": "card-number, "holder": "holder-name", "expiry":  "MM/YY", "cvv": "CVV", "businessId: id, "amount": value }
